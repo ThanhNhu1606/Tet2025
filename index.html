@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc mừng năm mới 2025</title>
+    <link rel="stylesheet" href="./styles.css">
+ 
+</head>
+<body>
+    <canvas id="cas"></canvas>
+    <div id="Merry" class="christmas-message">Vài lời chúc tìn củm Then Như muốn gửi đến mọi người😊</div>
+    <img class="tree-icon">
+    <audio id="audio" src="./tet.mp3"></audio>
+    <div class="container">
+        <button id="showButton">
+            Nhận lời chúc✨
+        </button>
+    </div>
+
+    <div id="guideInfo" class="hidden">
+        <button id="closeButton" class="close-btn">x</button>
+        <div class="card">
+            <div class="imgBox">
+                <div class="bark"></div>
+                <img src="image/anhtet.png" alt="line slow">
+            </div>
+            <div class="details">
+                <h4 class="color1"></h2>
+                    <h4 class="color2 margin">Chúc mừng năm mới 2025!</h3>
+                        <p><br></p>
+                        <p> </p>
+                        <p> Xin gửi lời chúc đến tất cả</p>
+                        <p class="split"> những người mà Như yêu quý💖</p>
+                        <p> Chúc mọi người năm mới vui vẻ, </p>
+                        <p> Thật nhiều sức khỏe,</p>
+                        <p> Hạnh phúc, thành công trong mọi việc,</p>
+                        <p> Bỏ qua mọi muộn phiền, </p>
+                        <p> mong rằng năm nay luôn </p>
+                        <p> đầy ắp tiếng cười, niềm vui</p>
+                        <p> và những điều tốt đẹp nhất</p>
+                        <p> sẽ đến với chúng ta</p>
+                        <p><br></p>
+                        <p class="text-right">Yêuu cả nhà của Như🌹</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script>
+        document.body.addEventListener("click", function() {
+             var audio = document.getElementById("audio");
+             audio.play();
+         });
+     </script>
+</body>
+</html>
