@@ -87,18 +87,23 @@ body {
 
 @media (max-width: 600px) {
   #showButton {
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     box-shadow: 0 2px #f96060;
-    /* bottom: 80px; */
+    background-color: #ffe391;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-left: 32px;
   }
 
   .christmas-message{
-    font-size: 24px;
-    padding: 22px;
+    font-size: 26px;
+    padding: 92px;
   }
 
   .split{
-    margin-bottom: 10px; /* Điều chỉnh khoảng cách giữa các đoạn */
+    /* Điều chỉnh khoảng cách giữa các đoạn */
           line-height: 1.6;    /* Tăng khoảng cách dòng nếu cần */
           display: block; 
   }
@@ -125,7 +130,7 @@ body {
   font-size: 24px;
   background-color: transparent;
   border: none;
-  color: black;
+  color: white;
   cursor: pointer;
   z-index: 1000;
 }
