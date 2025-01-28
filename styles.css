@@ -85,7 +85,7 @@ body {
   transform: translateY(4px);
 }
 
-@media (max-width: 768768px) {
+@media (max-width: 768px) {
   #showButton {
     margin-bottom: 40px;
     box-shadow: 0 2px #f96060;
